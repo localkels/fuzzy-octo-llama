@@ -10,11 +10,20 @@
 }
 
 
+
+/***************************************
+GENERAL
+****************************************/
+
 body {
     background: #CC3333;
     /*background-image: url(assets/forest-bg.png)*/
     color: #FFFFFF;
     font-family: Cooper Hewitt;
+}
+
+img {
+    max-width: 100%;
 }
 
 nav {
@@ -25,8 +34,8 @@ nav {
     width: 100%;
 }
 
-li {
-    display: inline;
+nav li {
+    display: inline-block;
     text-align: center;
 }
 
@@ -39,10 +48,24 @@ img.center {
 section {
     background: white;
     padding: 40px;
-    margin-bottom: 50px;
+    margin: 50px;
     overflow: hidden;
     
 }
+
+ul.gallery {
+    display: inline-block;
+    list-style: none;
+    
+}
+
+ul.gallery img {
+    float: left;
+    width: 30%;
+    padding: 0 2.5% 2.5% 0;
+}
+
+/* Convert font-size to ems */
 
 h1, h2, h3, h4, h5 {
     font-family: Roboto;
@@ -56,11 +79,6 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 30px;
 }
 
-.color_overlay {
-    width: 100%;
-    
-    
-}
 .wrapper {
     width: 960px;
     margin-left: auto;
@@ -90,7 +108,7 @@ h1, h2, h3, h4, h5 {
 
 
 #prof_pic {
-    margin-bottom: 0px;
+    margin: 0 auto;
 }
 
 .content {
@@ -98,7 +116,7 @@ h1, h2, h3, h4, h5 {
     padding: 40px;
     padding-bottom: 0px;
     padding-top: 50px;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
     
 }
 
