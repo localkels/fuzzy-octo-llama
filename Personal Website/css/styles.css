@@ -1,0 +1,116 @@
+@font-face {
+    src: url("assets/blackplotan/BLACKPLOTAN.otf");
+    src: url("assets/blackplotan/BLACKPLOTAN Italic.otf");
+    font-family: BLACKPOLTAN;
+    
+    src: url("assets/roboto/Roboto-BoldCondensed.ttf");
+    src: url("assets/roboto/Roboto-BoldCondensed.ttf");
+    font-family: Roboto;
+
+}
+
+
+body {
+    background: #CC3333;
+    /*background-image: url(assets/forest-bg.png)*/
+    color: #FFFFFF;
+    font-family: Cooper Hewitt;
+}
+
+nav {
+    margin: 0px;
+    padding: 0px;
+    background: #CC3333;
+    position: fixed;
+    width: 100%;
+}
+
+li {
+    display: inline;
+    text-align: center;
+}
+
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    background: white;
+    padding: 40px;
+    margin-bottom: 50px;
+    overflow: hidden;
+    
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: Roboto;
+    text-align: center;
+    font-size: 220%;
+    
+}
+
+.greeting {
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.color_overlay {
+    width: 100%;
+    
+    
+}
+.wrapper {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+}
+
+.pg_title {
+    font-size: 120px; 
+    font-family: Blackplotan;
+    text-transform: uppercase;
+    text-align: center;
+    
+    margin: 0px;
+    margin-top: 0px;
+
+}
+
+.slogan {
+    font-family: Roboto;
+    font-size: 50px;
+    color: #333333;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+
+#prof_pic {
+    margin-bottom: 0px;
+}
+
+.content {
+    color: #2c3e50;
+    padding: 40px;
+    padding-bottom: 0px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+article.case {
+    background-color: #ecf0f1;
+    
+	width: 26.5%;
+	height: 225px;
+    
+	margin: 6px;
+    padding: 20px;
+    float: left;
+	overflow: scroll;
+	
+}
