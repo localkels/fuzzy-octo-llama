@@ -33,6 +33,10 @@ img {
     width: 100%;
 }
 
+img#main-logo {
+    margin: 1em 0 2em 0;
+}
+
 img.small-img {
     max-width: 400px;
     margin: 0;
@@ -45,7 +49,7 @@ nav {
     background: #333;
     text-align: center;
     padding: .001em;
-    margin: .5em 0;
+    margin: 1.4em 0;
     
 }
 
