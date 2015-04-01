@@ -1,11 +1,47 @@
+body {
+    
+    background: #333;
+}
+nav {
+    margin: 1em 0 0;
+    padding-bottom: 0.8em;
+}
 article {
     background: #fff;
     color: #777;
-    margin: 0;
-    padding: 0%;
+    padding: 7%;
+    margin-bottom: 70px;
     
 }
 
-p {
+article p {
+    width: 100%;
+    margin: 0 auto;
+}
+
+article span {
+    font-size: .7em;
+    border-bottom: border-bottom: 1px solid #333;
+    margin: 0 0 20px 0;
+}
+
+
+footer {
+    margin: 0;
+    padding: 0;
+    font-size: .6em;
+    text-align: center;
+}
+
+#main-header {
+    padding: 1.5em;
+    margin: 0;
+    background: #cc3333
+
+}
+
+
+#background {
+    background: #333;
     
 }
