@@ -7,6 +7,7 @@ nav {
     padding-bottom: 0.8em;
 }
 article {
+    font-size: 1.3em;
     background: #fff;
     color: #777;
     padding: 7%;
@@ -16,12 +17,13 @@ article {
 
 article p {
     width: 100%;
-    margin: 0 auto;
+    margin: 25px auto;
 }
 
 article span {
     font-size: .7em;
-    border-bottom: border-bottom: 1px solid #333;
+    color: #bbb;
+    border-bottom: 1px solid #ddd;
     margin: 0 0 20px 0;
 }
 
@@ -29,7 +31,7 @@ article span {
 footer {
     margin: 0;
     padding: 0;
-    font-size: .6em;
+    font-size: 1em;
     text-align: center;
 }
 
@@ -44,4 +46,18 @@ footer {
 #background {
     background: #333;
     
+}
+
+/*Blog headings fonts********/
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 20px 0;
+}
+
+article header h1 {
+    font-size: 2em;
+    font-weight: 900;
+    text-transform: uppercase;
+    border: 1px solid #ddd;
+    padding: 20px;
 }

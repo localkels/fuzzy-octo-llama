@@ -9,7 +9,7 @@ GENERAL
 body {
     font-family: 'Titillium Web', Verdana, Tahoma, sans-serif;
     background: #cc3333;
-    font-size: 1.45em;
+    
     line-height: 1.4;
     color: white;
     padding: 0;
@@ -26,6 +26,7 @@ header {
     height: 100%;
     padding: .9em 4%;
     text-align: center;
+    font-size: 1.45em;
 }
 
 header p {
@@ -56,6 +57,7 @@ nav {
     text-align: center;
     padding: .001em;
     margin: 1.4em 0;
+    font-size: 1.45em;
     
 }
 
@@ -68,7 +70,20 @@ ul {
     padding: 0;
 }
 
-a {
+article a {
+    color: #cc3333;
+/*
+    text-decoration: none;
+    border-bottom: 1px solid #cc3333;
+*/
+}
+
+article a:hover {
+    color: #cc3333;
+    text-decoration: none;
+}
+
+nav a, footer a {
     color: #ffff00;
     text-decoration: none;
     border-bottom: 1px solid #ffff00;
@@ -81,7 +96,7 @@ footer li {
 /*********************************
 HEADINGS
 **********************************/
-h1 {
+#main-header h1 {
     font-size: 3.157em;
     font-weight: 900;
     text-transform: uppercase;
@@ -92,8 +107,14 @@ h1 {
 
 }
 
-h2 {
+h1 {
     font-size: 2.369em;
+    line-height: 1.1;
+    margin: 0 0 .54em;
+}
+
+h2 {
+    font-size: 2.169em;
     line-height: 1.15;
     margin: 0 0 .54em;
 }
