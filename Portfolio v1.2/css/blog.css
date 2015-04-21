@@ -1,0 +1,63 @@
+body {
+    
+    background: #333;
+}
+nav {
+    margin: 1em 0 0;
+    padding-bottom: 0.8em;
+}
+article {
+    font-size: 1.3em;
+    background: #fff;
+    color: #777;
+    padding: 7%;
+    margin-bottom: 70px;
+    
+}
+
+article p {
+    width: 100%;
+    margin: 25px auto;
+}
+
+article span {
+    font-size: .7em;
+    color: #bbb;
+    border-bottom: 1px solid #ddd;
+    margin: 0 0 20px 0;
+}
+
+
+footer {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    text-align: center;
+}
+
+#main-header {
+    padding: 1.5em;
+    margin: 0;
+    background: #cc3333
+
+}
+
+
+#background {
+    background: #333;
+    
+}
+
+/*Blog headings fonts********/
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 20px 0;
+}
+
+article header h1 {
+    font-size: 2em;
+    font-weight: 900;
+    text-transform: uppercase;
+    border: 1px solid #ddd;
+    padding: 20px;
+}

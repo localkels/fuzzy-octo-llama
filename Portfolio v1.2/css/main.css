@@ -1,0 +1,138 @@
+/** Import Webfonts **/
+@import url(http://fonts.googleapis.com/css?family=Cutive+Mono|Titillium+Web:200,300,400,900,700);
+
+
+
+/*********************************
+GENERAL
+**********************************/
+body {
+    font-family: 'Titillium Web', Verdana, Tahoma, sans-serif;
+    background: #cc3333;
+    
+    line-height: 1.4;
+    color: white;
+    padding: 0;
+    
+}
+
+#wrapper{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+header {
+    height: 100%;
+    padding: .9em 4%;
+    text-align: center;
+    font-size: 1.45em;
+}
+
+header p {
+    /*font-weight: 100;*/
+    font-weight: 200;
+    margin: 0 auto;
+    max-width: 600px
+}
+
+img {
+    width: 100%;
+}
+
+img#main-logo {
+    margin: 1em 0 2em 0;
+}
+
+img.small-img {
+    max-width: 400px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav {
+    width: 100%;
+    background: #333;
+    text-align: center;
+    padding: .001em;
+    margin: 1.4em 0;
+    font-size: 1.45em;
+    
+}
+
+nav li {
+    display: inline-block;
+    padding: 0 .6em;
+}
+
+ul {
+    padding: 0;
+}
+
+article a {
+    color: #cc3333;
+/*
+    text-decoration: none;
+    border-bottom: 1px solid #cc3333;
+*/
+}
+
+article a:hover {
+    color: #cc3333;
+    text-decoration: none;
+}
+
+nav a, footer a {
+    color: #ffff00;
+    text-decoration: none;
+    border-bottom: 1px solid #ffff00;
+}
+
+footer li {
+    display: inline-block;
+}
+
+/*********************************
+HEADINGS
+**********************************/
+#main-header h1 {
+    font-size: 3.157em;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    line-height: 1.1;
+    margin: 0;
+    padding-bottom: .3em;
+
+}
+
+h1 {
+    font-size: 2.369em;
+    line-height: 1.1;
+    margin: 0 0 .54em;
+}
+
+h2 {
+    font-size: 2.169em;
+    line-height: 1.15;
+    margin: 0 0 .54em;
+}
+
+h3 {
+    font-size: 1.777em;
+    line-height: 1.2;
+    margin: .9em 0 .62em;
+}
+
+h4 {
+   font-size: 1.333em; 
+}
+
+/*********************************
+BLOG
+**********************************/
+
+
+
+
