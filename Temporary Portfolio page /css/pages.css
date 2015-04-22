@@ -51,14 +51,53 @@ article header h1 {
     margin-bottom: 0;
 }
 
+
+
 article span {
+    font-size: 1.1em;
+    font-weight: 600;
     display: block;
     margin: 20px 0;
     
 }
 
+article img {
+/*    border: 4px solid #eee;*/
+    margin: 0;
+}
+
+article p.caption {
+    margin: 0;
+    padding: 0;
+    background: #eee;
+}
+
 article p {
     margin: 20 0 15px;
+}
+
+
+.art-header {
+    text-align: center;
+    background: #fff;
+    padding: 50px;
+    border: 4px solid #eee;
+    
+}
+
+.art-header span {
+    margin: 20px 0 0;
+    padding: 0;
+}
+
+.img-holder {
+    border: 4px solid #eee;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: #eee;
+    text-align: center;
+    font-size: 0.8em;
 }
 
 

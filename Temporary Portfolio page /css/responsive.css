@@ -12,3 +12,13 @@
         font-size: 1em;
     }
 }
+
+@media (min-width: 1000px){
+    article {
+        padding: 60px;
+    }
+    
+    section {
+        width: 990px;
+    }
+}
