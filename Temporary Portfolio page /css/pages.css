@@ -13,7 +13,7 @@
     
     text-transform: uppercase;
     font-weight: 800;
-/*    font-size: 1.2em;*/
+    font-size: 3.0em;
     margin: 30px 0;
     
 }
@@ -54,9 +54,44 @@ article header h1 {
 article span {
     display: block;
     margin: 20px 0;
-    font-style: italic;
+    
 }
 
 article p {
     margin: 20 0 15px;
+}
+
+
+
+/* GALLERY -----------------------------------*/
+
+.gallery {
+    padding: 0;
+    overflow: auto;
+}
+
+.gallery li {
+    background: #eee;
+    float: left;
+    width: 30%;
+    display: inline-block;
+    list-style: none;
+    margin: 0 15px 30px;
+}
+
+.gallery li p {
+    margin: 10px;
+    font-size: 0.7em;
+    
+}
+
+.gallery img {
+    transition: all 0.5s ease-out;
+    
+}
+
+.gallery img:hover {
+    position: relative;
+    transform: scale(2);
+    
 }
