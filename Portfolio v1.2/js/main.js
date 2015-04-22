@@ -1,15 +1,13 @@
 /*********************************
-Blog fixed sidebar
+Fixed nav
 **********************************/
 
-$(document).ready(function() {
-  function setHeight() {
-    windowHeight = $(window).innerHeight();
-    $('.sidebar').css('min-height', windowHeight);
-  };
-  setHeight();
-  
-  $(window).resize(function() {
-    setHeight();
-  });
-}); 
+//var elementPosition = $('#navigation').offset();
+//
+//$(window).scroll(function(){
+//        if($(window).scrollTop() > elementPosition.top){
+//              $('#navigation').css('position','fixed').css('top','0');
+//        } else {
+//            $('#navigation').css('position','static');
+//        }    
+//});
