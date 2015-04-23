@@ -2,13 +2,11 @@
 @import url(http://fonts.googleapis.com/css?family=Cutive+Mono|Titillium+Web:200,300,400,900,700);
 
 
-
 /* GENERAL -----------------------------------*/
 
 body {
-    font-family: 'Titillium Web', Verdana, Tahoma, sans-serif;
+    font-family: 'Titillium Web', Tahoma, sans-serif;
     background: #cc3333;
-    
     line-height: 1.4;
     color: white;
     padding: 0;
@@ -46,8 +44,7 @@ footer li {
     text-transform: uppercase;
     letter-spacing: 3px;
     line-height: 1.1;
-    margin: 0;
-    padding-bottom: .3em;
+    margin: 40px 0;
 
 }
 
@@ -125,6 +122,9 @@ nav ul {
 
 article a {
     color: #cc3333;
+    text-decoration: none;
+    transition: all 200ms ease-in;
+    border-bottom: 1px solid #fff;
 /*
     text-decoration: none;
     border-bottom: 1px solid #cc3333;
@@ -133,11 +133,6 @@ article a {
 
 article a:hover {
     color: #cc3333;
-    text-decoration: none;
+    border-bottom: 1px solid #cc3333;
+    background: #ff0;
 }
-
-
-
-
-
-
