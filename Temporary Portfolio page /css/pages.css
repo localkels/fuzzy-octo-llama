@@ -105,7 +105,7 @@ article hr {
 
 .img-holder {
     border: 3px solid #eee;
-    margin: 0;
+    margin: 25px 0 0;
     padding: 0;
     width: 100%;
     background: #eee;
@@ -118,8 +118,132 @@ article hr {
 }
 
 
-/* Picture grid ---------------------------------*/
+/* Image grid ---------------------------------*/
 
+.sm-img {
+    
+}
+
+.med-img {
+    width: 50%;
+}
+
+.lrg-img {
+    
+}
+
+.img-grid {
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+    
+}
+
+.img-grid-wide {
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+    
+}
+
+.img-grid img {
+    display: inline-block;
+    float: left;
+    width: 280px;
+    height: 300px;
+    object-fit: cover;
+    border: 3px solid #eee;
+    margin: 0 auto;
+    
+}
+
+.img-grid-wide img {
+    display: inline-block;
+    float: left;
+    width: 280px;
+    height: 200px;
+    object-fit: cover;
+    border: 3px solid #eee;
+    margin: 0 auto;
+    
+}
+
+
+/*
+.grid-lrg {
+    width: 100%;
+}
+
+.grid-med {
+    max-width: 600px;
+    height: 100px;
+}
+*/
+
+
+/*
+.img-grid {
+        list-style: none;
+  		padding: 0.25em;
+			overflow: hidden;
+		}
+		.img-grid li {
+			float: left;
+			width: 50%;
+			padding: 0.25em;
+		}
+		.img-grid img {
+			display: block;
+		}
+		.img-grid li:nth-child(odd) {
+			clear: left;
+		}
+	
+		@media screen and (min-width: 40em) {
+			.img-grid li {
+		    	width: 33.3333333333333333%; 
+		  	}
+		  	.img-grid li:nth-child(3n+1) {
+		  		clear: left;
+		  	}
+		  	.img-grid li:nth-child(odd) {
+				clear: none;
+			}
+		}
+		@media screen and (min-width: 55em) {
+			.img-grid li {
+		    	width: 25%; 
+		  	}
+		  	.img-grid li:nth-child(4n+1) {
+		  		clear: left;
+		  	}
+		  	.img-grid li:nth-child(3n+1) {
+				clear: none;
+			}
+		}
+		@media screen and (min-width: 72em) {
+			.img-grid li {
+		    	width: 20%; 
+		  	}
+		  	.img-grid li:nth-child(5n+1) {
+		  		clear: left;
+		  	}
+		  	.img-grid li:nth-child(4n+1) {
+				clear: none;
+			}
+		}
+		@media screen and (min-width: 90em) {
+			.img-grid li {
+		    	width: 16.666666666%; 
+		  	}
+		  	.img-grid li:nth-child(6n+1) {
+		  		clear: left;
+		  	}
+		  	.img-grid li:nth-child(5n+1) {
+				clear: none;
+			}
+		}
+*/
 
 
 
@@ -131,7 +255,7 @@ article hr {
 
 
 .gallery li {
-    background: #ff0;
+    background: #333;
     float: left;
     width: 30%;
     display: inline-block;
@@ -151,13 +275,18 @@ article hr {
 }
 
 .gallery li p {
-    display: block;
+/*    display: block;*/
     color: #fff;
     font-size: 0.9em;
     position: relative;
-    top: -120px;
+    top: -125px;
     text-align: center;
     
+}
+
+.gallery img {
+    height: 100%;
+    opacity: 0.8;
 }
 
 .gallery img:hover {
@@ -166,6 +295,15 @@ article hr {
     
 }
 
+.gallery a {
+    background: none;
+    border: none;
+}
+
+.gallery a:hover {
+    background: none;
+    border: none;
+}
 
 
 
