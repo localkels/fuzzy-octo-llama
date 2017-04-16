@@ -1,0 +1,11 @@
+body {
+    background: pink;
+}
+
+.completed {
+   text-decoration: line-through;
+}
+
+p::first-line {
+   color: aqua;
+}

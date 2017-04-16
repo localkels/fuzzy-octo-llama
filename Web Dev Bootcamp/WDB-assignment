@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Midnight the Cat</title>
+  </head>
+
+  <body>
+  	<p>Hi, I'm a cat. Meow!</p>
+  	<img src="http://img.huffingtonpost.com/asset/scalefit_630_noupscale/582cb2601a00002400cc8426.jpeg?cache=wltod2kvw5" alt="black cat">
+
+  	<h2>Some of my favorite places:</h2>
+  		<ul>
+  			<li>The bench outside</li>
+  			<li>The Bar</li>
+  			<li>Inside the house (where I'm not allowed).</li>
+  		</ul>
+
+  		<p>Make sure to follow me on <a href="https://www.youtube.com"/>Youtube</a>.</p>
+
+  </body>
+</html>

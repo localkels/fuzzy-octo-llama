@@ -1,0 +1,32 @@
+/*===== TIC TAC TOE =====*/
+
+/*------ GENERAL ------*/
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.center-align {
+    margin: 0 auto;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+}
+
+.left {
+    border-right: 2px MediumVioletRed solid;
+}
+
+.right {
+    border-left: 2px MediumVioletRed solid;
+}
+
+.top {
+    border-bottom: 2px MediumVioletRed solid;
+}
+
+.bottom {
+    border-top: 2px MediumVioletRed solid;
+}

@@ -1,0 +1,21 @@
+body {
+    font-size: 10px;
+}
+
+p {
+    font-family: "Arial";
+}
+
+h1 {
+    font-family: "Georgia";
+    font-size: 5em;
+    text-align: right;
+    text-decoration: overline;
+}
+
+p {
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 1.2;
+    
+}

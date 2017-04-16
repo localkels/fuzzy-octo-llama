@@ -1,0 +1,22 @@
+/* --- Fonts --- */
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,900');
+
+
+/* ----- GENERAL ----- */
+
+img {
+  width: 30%;
+  float: left;
+  margin: 1.667%;
+}
+
+p {
+  font-family: "Raleway";
+  font-weight: 900;
+  font-size: 28px;
+  text-transform: uppercase;
+  margin-left: 1.667%;
+  border-bottom: solid #eee 3px;
+  width: 30%;
+  padding-bottom: 30px;
+}
