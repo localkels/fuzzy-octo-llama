@@ -1,0 +1,29 @@
+/* -- FONTS -- */
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+
+/* --- GENERAL --- */
+
+body {
+  padding-top: 85px;
+}
+
+.jumbotron .h1, .jumbotron h1 {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 2.5em;
+}
+
+.jumbotron {
+  color: #2c3e50;
+  background: pink;
+}
+
+.navbar-inverse {
+  background: #2c3e50;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: white;
+}
+.navbar-inverse .navbar-brand {
+  color: white;
+}
